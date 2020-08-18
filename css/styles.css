@@ -41,18 +41,12 @@ html {
   width: 100%;
   height: 100%;
   font-family: Georgia, "Times New Roman", Times, serif !important;
-  background: linear-gradient(rgb(255, 255, 255, 0.9), rgba(251, 251, 251, 0.5)),
-    url("../images/SobekITMap.png");
-  background-size: cover;
 }
 
 body,
 p {
   color: #787976;
-  /* font: 400 1rem/1.5625rem Georgia, 'Times New Roman'; */
   line-height: 2;
-
-  text-align: justify;
 }
 
 p {
@@ -95,32 +89,26 @@ p {
 
 h1 {
   color: #484a46;
-  font: 700 2.5rem/3rem Georgia, "Times New Roman";
 }
 
 h2 {
   color: #484a46;
-  font: 700 1.75rem/2.125rem Georgia, "Times New Roman";
 }
 
 h3 {
   color: #484a46;
-  font: 700 1.375rem/1.75rem Georgia, "Times New Roman";
 }
 
 h4 {
   color: #484a46;
-  font: 700 1.25rem/1.625rem Georgia, "Times New Roman";
 }
 
 h5 {
   color: #484a46;
-  font: 700 1.125rem/1.5rem Georgia, "Times New Roman";
 }
 
 h6 {
   color: #484a46;
-  font: 700 1rem/1.375rem Georgia, "Times New Roman";
 }
 
 a {
@@ -146,10 +134,6 @@ a.white,
   font-style: italic;
 }
 
-.testimonial-author {
-  font: 700 1rem/1.375rem Georgia, "Times New Roman";
-}
-
 strong {
   color: #484a46;
 }
@@ -158,7 +142,6 @@ strong {
   color: var(--main-color);
   font-size: 1.75rem;
   margin-bottom: 3rem !important;
-  /* font: 500 0.8125rem/1.125rem Georgia, 'Times New Roman'; */
 }
 
 .btn-solid-reg {
@@ -168,7 +151,6 @@ strong {
   border-radius: 0.25rem;
   background-color: var(--main-color);
   color: #fff;
-  font: 700 0.75rem/0 Georgia, "Times New Roman";
   text-decoration: none;
   transition: all 0.2s;
 }
@@ -186,7 +168,6 @@ strong {
   border-radius: 0.25rem;
   background-color: var(--main-color);
   color: #fff;
-  font: 700 0.75rem/0 Georgia, "Times New Roman";
   text-decoration: none;
   transition: all 0.2s;
 }
@@ -204,7 +185,6 @@ strong {
   border-radius: 0.25rem;
   background-color: transparent;
   color: #787976;
-  font: 700 0.75rem/0 Georgia, "Times New Roman";
   text-decoration: none;
   transition: all 0.2s;
 }
@@ -222,7 +202,6 @@ strong {
   border-radius: 0.25rem;
   background-color: transparent;
   color: #787976;
-  font: 700 0.75rem/0 Georgia, "Times New Roman";
   text-decoration: none;
   transition: all 0.2s;
 }
@@ -240,7 +219,6 @@ strong {
   border-radius: 0.25rem;
   background-color: transparent;
   color: #787976;
-  font: 700 0.75rem/0 Georgia, "Times New Roman";
   text-decoration: none;
   transition: all 0.2s;
 }
@@ -270,7 +248,6 @@ strong {
   left: 1.375rem;
   color: #787976;
   opacity: 1;
-  font: 400 0.875rem/1.375rem Georgia, "Times New Roman";
   cursor: text;
   transition: all 0.2s ease;
 }
@@ -296,7 +273,6 @@ strong {
 .form-control-input,
 .form-control-select {
   display: block;
-  /* needed for proper display of the label in Firefox, IE, Edge */
   width: 100%;
   padding-top: 1.25rem;
   padding-bottom: 0.25rem;
@@ -305,10 +281,8 @@ strong {
   border-radius: 0.25rem;
   background-color: #fff;
   color: #787976;
-  font: 400 0.875rem/1.375rem Georgia, "Times New Roman";
   transition: all 0.2s;
   -webkit-appearance: none;
-  /* removes inner shadow on form inputs on ios safari */
 }
 
 .form-control-select {
@@ -349,22 +323,18 @@ select {
 
 select::-ms-expand {
   display: none;
-  /* removes the ugly default down arrow on select form field in IE11 */
 }
 
 .form-control-textarea {
   display: block;
-  /* used to eliminate a bottom gap difference between Chrome and IE/FF */
   width: 100%;
   height: 8rem;
-  /* used instead of html rows to normalize height between Chrome and IE/FF */
   padding-top: 1.25rem;
   padding-left: 1.3125rem;
   border: 1px solid #dadada;
   border-radius: 0.25rem;
   background-color: #fff;
   color: #787976;
-  font: 400 1rem/1.5625rem Georgia, "Times New Roman";
   transition: all 0.2s;
 }
 
@@ -373,7 +343,6 @@ select::-ms-expand {
 .form-control-textarea:focus {
   border: 1px solid #a1a1a1;
   outline: none;
-  /* Removes blue border on focus */
 }
 
 .form-control-input:hover,
@@ -382,21 +351,8 @@ select::-ms-expand {
   border: 1px solid #a1a1a1;
 }
 
-.checkbox {
-  font: 400 0.875rem/1.375rem Georgia, "Times New Roman";
-}
-
 input[type="checkbox"] {
-  vertical-align: -15%;
   margin-right: 0.375rem;
-}
-
-/* IE10+ hack to raise checkbox field position compared to the rest of the browsers */
-@media screen and (-ms-high-contrast: active),
-  screen and (-ms-high-contrast: none) {
-  input[type="checkbox"] {
-    vertical-align: -9%;
-  }
 }
 
 .form-control-submit-button {
@@ -407,7 +363,6 @@ input[type="checkbox"] {
   border-radius: 0.25rem;
   background-color: var(--main-color);
   color: #fff;
-  font: 700 0.75rem/1.75rem Georgia, "Times New Roman";
   cursor: pointer;
   transition: all 0.2s;
 }
@@ -427,7 +382,6 @@ input[type="checkbox"] {
   display: block;
   margin-bottom: 0;
   color: #b93636;
-  font: 400 1.125rem/1rem Georgia, "Times New Roman";
 }
 
 .help-block.with-errors .list-unstyled {
@@ -715,7 +669,6 @@ input[type="checkbox"] {
   /* background-color: #113448; */
   background-color: var(--sec-color);
   box-shadow: 0 0.0625rem 0.375rem 0 rgba(0, 0, 0, 0.1);
-  font: 600 0.875rem/0.875rem Georgia, "Times New Roman";
   transition: all 0.2s;
 }
 
@@ -724,10 +677,6 @@ input[type="checkbox"] {
 }
 
 .navbar-custom .navbar-brand.logo-image img {
-  /* width: 7.0625rem;
-	height: 2rem; */
-  /* width: 15.0625rem;
-	height: 8rem; */
   width: 19.0625rem;
   height: 11rem;
   -webkit-backface-visibility: hidden;
@@ -736,7 +685,6 @@ input[type="checkbox"] {
 .navbar-custom .navbar-brand.logo-text {
   margin-top: 0.25rem;
   margin-bottom: 0.25rem;
-  font: 700 2.25rem/1.5rem Georgia, "Times New Roman";
   color: #fff;
   text-decoration: none;
 }
@@ -748,8 +696,7 @@ input[type="checkbox"] {
 
 .navbar-custom .nav-item .nav-link {
   padding: 0.625rem 0.75rem 0.625rem 0.75rem;
-  /* color: #fff; */
-  color: #000;
+  color: #fff;
   font-size: 16px;
   text-decoration: none;
   transition: all 0.2s ease;
@@ -799,10 +746,6 @@ input[type="checkbox"] {
 .navbar-custom .dropdown-item:hover {
   background-color: var(--main-color);
   color: #fff;
-}
-
-.navbar-custom .dropdown-item .item-text {
-  font: 600 0.875rem/0.875rem Georgia, "Times New Roman";
 }
 
 .navbar-custom .dropdown-item:hover .item-text {
@@ -1014,7 +957,7 @@ input[type="checkbox"] {
 /*     06. Promis     */
 /************************/
 .promis {
-  padding-top: 1rem;
+  padding-top: 6.875rem;
   padding-bottom: 4.875rem;
 }
 
@@ -1107,7 +1050,6 @@ input[type="checkbox"] {
 .cards-2 .price {
   margin-bottom: 0.25rem;
   color: #484a46;
-  font: 700 1rem/1.5rem Georgia, "Times New Roman";
   text-align: center;
 }
 
@@ -1167,7 +1109,6 @@ input[type="checkbox"] {
   border-radius: 50%;
   background-color: var(--main-color);
   color: #fff;
-  font: 700 1rem/2.125rem Georgia, "Times New Roman";
   text-align: center;
   vertical-align: middle;
   cursor: pointer;
@@ -1191,7 +1132,6 @@ input[type="checkbox"] {
   margin-top: 0.125rem;
   margin-bottom: 0.25rem;
   color: #484a46;
-  font: 700 1.25rem/1.75rem Georgia, "Times New Roman";
   vertical-align: middle;
   cursor: pointer;
   transition: all 0.2s ease;
@@ -1234,7 +1174,6 @@ input[type="checkbox"] {
   border: none;
   border-radius: 0.25rem;
   color: #c1cace;
-  font: 700 1.375rem/1.375rem Georgia, "Times New Roman";
   text-decoration: none;
   transition: all 0.2s ease;
 }
@@ -1257,7 +1196,6 @@ input[type="checkbox"] {
 .tabs #tab-1 .progress-container .title {
   margin-bottom: 0.25rem;
   color: #484a46;
-  font: 600 0.875rem/1.25rem Georgia, "Times New Roman";
 }
 
 .tabs #tab-1 .progress {
@@ -1499,7 +1437,6 @@ input[type="checkbox"] {
   border-radius: 0.25rem;
   background-color: #f1f4f7;
   color: #7b7e85;
-  font: 700 0.75rem/1.25rem Georgia, "Times New Roman";
   cursor: pointer;
   transition: all 0.2s ease;
 }
@@ -1563,7 +1500,6 @@ input[type="checkbox"] {
   right: 0;
   left: 0;
   color: #fff;
-  font: 700 1.125rem/1.625rem Georgia, "Times New Roman";
 }
 
 /**********************************/
@@ -1691,7 +1627,6 @@ input[type="checkbox"] {
 .basic-2 .team-member .job-title {
   margin-bottom: 0.75rem;
   color: #484a46;
-  font: 700 1rem/1.375rem Georgia, "Times New Roman";
 }
 
 .basic-2 .fa-stack {
@@ -1785,7 +1720,6 @@ input[type="checkbox"] {
   display: inline-block;
   margin-bottom: 0.125rem;
   color: var(--main-color);
-  font: 700 2.875rem/3.25rem Georgia, "Times New Roman";
   vertical-align: middle;
 }
 
@@ -1803,6 +1737,9 @@ input[type="checkbox"] {
 .form-2 {
   padding-top: 2rem !important;
   padding-bottom: 5.925rem;
+  background: linear-gradient(rgb(255, 255, 255, 0.9), rgba(251, 251, 251, 0.5)),
+    url("../images/SobekITMap.png");
+  background-size: cover;
 }
 
 .form-2 .text-container {
