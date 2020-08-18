@@ -1,0 +1,44 @@
+.container,
+.container-sm,
+.container-md,
+.container-lg,
+.container-xl {
+  max-width: 90%;
+}
+
+.flex-center {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  height: 100%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.p-heading {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.about-img img {
+  height: 570px;
+  object-fit: cover;
+}
+
+.link {
+  width: 30%;
+}
+
+.form-2 img {
+  position: relative;
+  bottom: 2px;
+  width: 30px;
+  margin-right: 0.5rem;
+}
+
+.form-2 span {
+  font-weight: bold;
+  margin-right: 0.3rem;
+}
