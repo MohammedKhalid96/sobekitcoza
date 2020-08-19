@@ -23,7 +23,7 @@
 }
 
 .about-img img {
-  height: 568px;
+  height: 601px;
   object-fit: cover;
 }
 
@@ -69,7 +69,7 @@
 
 .solutions-img img {
   width: 100%;
-  height: 450px;
+  height: 480px;
   object-fit: cover;
 }
 
@@ -142,7 +142,6 @@
   height: 550px;
   object-fit: cover;
   clip-path: circle(71.9% at 31% 40%);
-
 }
 
 .value {
@@ -156,4 +155,10 @@
 
 .value li {
   list-style: none;
+}
+
+.solutions-items,
+.our-story-info,
+.about-text {
+  padding-right: 5rem;
 }
