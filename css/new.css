@@ -78,7 +78,7 @@
 }
 
 .last {
-  margin-bottom: 0;
+  margin-bottom: 0 !important;
 }
 
 .circle-numbering {
@@ -106,4 +106,54 @@
 
 .item span {
   cursor: pointer;
+}
+
+.breadcrumbs span {
+  color: #e62825;
+}
+
+.breadcrumbs a {
+  position: relative;
+  bottom: 1px;
+  text-decoration: none;
+}
+
+.our-philo .quotes {
+  position: relative;
+  padding: 10px;
+}
+
+.our-philo .quotes .fa-quote-left {
+  color: #e62825;
+  left: -11px;
+  position: absolute;
+  top: 3px;
+}
+
+.our-philo .quotes i.fa-quote-right {
+  color: #e62825;
+  right: -11px;
+  position: absolute;
+  top: 3px;
+}
+
+.about-page-img img {
+  width: 100%;
+  height: 550px;
+  object-fit: cover;
+  clip-path: circle(71.9% at 31% 40%);
+
+}
+
+.value {
+  margin-bottom: 2rem;
+}
+
+.value img {
+  width: 40px;
+  margin-right: 1rem;
+}
+
+.value li {
+  list-style: none;
 }
