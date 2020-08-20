@@ -23,7 +23,7 @@
 }
 
 .about-img img {
-  height: 601px;
+  height: 630px;
   object-fit: cover;
 }
 
@@ -176,6 +176,30 @@
   margin: auto;
 }
 
+.our-story-img img {
+  clip-path: circle(74.6% at 74% 48%);
+}
+
+.our-story-info-2 {
+  padding: 0 2rem;
+}
+
+.quotes-text {
+  position: relative;
+  font-size: 1.6em;
+}
+
+.s-quote {
+  display: inline-block;
+  position: absolute;
+  height: 100%;
+  left: 20px;
+  bottom: 30px;
+  z-index: -1;
+  opacity: 0.3;
+  font-size: 4em;
+}
+
 @media (min-width: 992px) and (max-width: 1183px) {
   .our-values-info,
   .solutions-items,
@@ -196,7 +220,7 @@
   .solutions-img img,
   .about-page-img img {
     height: auto;
-    margin-bottom: 2rem;
+    margin: 2rem 0;
   }
   .our-values-info,
   .solutions-items,
@@ -215,7 +239,7 @@
   .solutions-img img,
   .about-page-img img {
     height: auto;
-    margin-bottom: 2rem;
+    margin: 2rem 0;
   }
 
   .solutions-items,
