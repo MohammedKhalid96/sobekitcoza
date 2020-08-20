@@ -2609,3 +2609,15 @@ a:hover.back-to-top {
 }
 
 /* end of min-width width 1200px */
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .promis p {
+    width: 100%;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .promis p {
+    width: 100%;
+  }
+}
